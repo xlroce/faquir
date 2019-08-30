@@ -1,0 +1,16 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3307/cw
+mybatis:
+  type-aliases-package: com.cw.faquire.core.domain.pojo.entity
+#  configuration:
+#    interceptors: com.cw.faquir.core.mybatis.ReadWritePlugin.class
+
+#  mapper-locations: classpath:mappers/*.xml
